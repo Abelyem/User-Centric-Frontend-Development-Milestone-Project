@@ -1,4 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:100,200,300,400,500|Gotu:100,200,300,400,500');
+
+ .hero-image {
+    background: url("../images/microphone-on-mic-stand.jpg"); 
+    background-repeat: no-repeat; 
+    background-attachment: fixed;
+    background-position: 80% 45%;
+    padding-top: 70px;
+    padding-bottom: 60%;
+    } 
+
 body {
-    background: url("../images/microphone-on-mic-stand.jpg") no-repeat bottom right fixed;
-    background-color: #e0e1e3;
-}
+    background-size: cover;
+    font-family: "Lato", sans-serif;
+    }
+
+
+/* ---------------------------------- HEADER / NAV BAR ------------------- */
+ .header {}
+
+ .navigation-bar {
+     border-bottom: 0;
+    
+    }
+
+
+ ul {
+     list-style-type: none;
+     font-size: 50px;
+     margin: 0;
+     padding-top: 10px;
+     border-bottom: 10px;
+     
+
+    }
+ 
+ li {
+     display: inline;
+ }
+
+ li a {
+    text-decoration: none!important; 
+    margin-left: 70px;
+    color:#014b56;
+    padding: 10px 30px;
+    }
+
+ ul:hover li {
+     height: 0;
+ }
+
+  li a:hover {
+ /*    color: #2e92a0; */
+     background-color: rgba(35,121,121,0.5);
+     color:#014b56;
+    
+    } 
+
+
+/* ---------------------------------- BAND NAME+INFO SECTION ------------------- */
+
+
+ .band-name {
+     padding-top: 20px;
+     padding-bottom: 10%;
+ }
+
+
+/* ---------------------------------- MIDDLE SECTION ------------------- */
+
+
+ .rounded-circle {
+     height: 300px;
+     width: 300px;
+     border-radius: 50%;
+ }
+
+ .hero-image-container {
+     height: 45%;
+     width: 100%;
+     overflow: hidden;
+ }
+ 
+
+
+
+
+ /* background-color: #e0e1e3; */
