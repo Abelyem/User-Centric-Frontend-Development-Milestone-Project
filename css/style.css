@@ -20,60 +20,86 @@ body {
 
  .navigation-bar {
      border-bottom: 0;
-    
     }
 
 
  ul {
      list-style-type: none;
-     font-size: 50px;
+     font-size: 45px;
      margin: 0;
      padding-top: 10px;
      border-bottom: 10px;
-     
 
-    }
+     }
  
  li {
      display: inline;
+          text-align: center;
+
  }
 
  li a {
     text-decoration: none!important; 
-    margin-left: 70px;
+    margin:0;
     color:#014b56;
     padding: 10px 30px;
+    text-align: center;
     }
-
- ul:hover li {
-     height: 0;
- }
 
   li a:hover {
  /*    color: #2e92a0; */
-     background-color: rgba(35,121,121,0.5);
+     background-color: rgba(213, 230, 230, 0.5);
      color:#014b56;
-    
+     width: 400px;
+
     } 
+
 
 
 /* ---------------------------------- BAND NAME+INFO SECTION ------------------- */
 
 
  .band-name {
-     padding-top: 20px;
-     padding-bottom: 10%;
+     padding-top: 5px;
+     
  }
+
+  .part h3 {
+     text-align: center;
+     font-size: 50px;
+     padding: 0;
+     margin-bottom: 15px;
+ }
+
+ /* --- Code below copied from https://codepen.io/GeoffreyCrofte/pen/Hizkh ----  */
+
+.diamond, .dia {
+  margin: 0 auto;
+  transform-origin: 50% 50%;
+  overflow: hidden;
+  width: 300px;
+  height: 300px;
+}
+
+.diamond {
+  transform: rotate(45deg) translateY(-25px) translateX(-25px);
+}
+.diamond .dia {
+  width: 380px;
+  height: 380px;
+  transform: rotate(-45deg);
+}
+.diamond img {
+  width: 100%;
+  height: auto;
+}
+
+/* --- end of copied code --- */
+
+ 
 
 
 /* ---------------------------------- MIDDLE SECTION ------------------- */
-
-
- .rounded-circle {
-     height: 300px;
-     width: 300px;
-     border-radius: 50%;
- }
 
  .hero-image-container {
      height: 45%;
@@ -81,7 +107,6 @@ body {
      overflow: hidden;
  }
  
-
 
 
 
