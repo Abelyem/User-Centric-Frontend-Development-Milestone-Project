@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:100,200,300,400,500|Gotu:100,200,300,400,500');
 
-  .navigation-bar, .hero-image {
+.hero-image {
     background: url("../images/microphone-on-mic-stand.jpg"); 
     background-repeat: no-repeat; 
     background-attachment: fixed;
@@ -41,7 +41,7 @@ body {
     text-align: center;
     }
 
-  li a:hover { 
+  .nav-item a:hover { 
      color:#014b56;
      height: auto;
     } 
@@ -103,10 +103,17 @@ body {
  
 
 
-/* ---------------------------------- MIDDLE SECTION ------------------- */
+/* ---------------------------------- FOOTER ------------------- */
 
+.footer, .social-media-links {
+    text-align: center;
+    font-size: 5px;
+}
 
+.footer ul li a {
+    color:grey;
+} 
 
-
-
- /* background-color: #e0e1e3; */
+.footer ul li a:hover {
+    color:#014b56;
+}
