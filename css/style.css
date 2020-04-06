@@ -1,11 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:100,200,300,400,500|Gotu:100,200,300,400,500');
 
- .hero-image {
+  .navigation-bar, .hero-image {
     background: url("../images/microphone-on-mic-stand.jpg"); 
     background-repeat: no-repeat; 
     background-attachment: fixed;
-    background-position: 80% 45%;
-    padding-top: 70px;
+    background-size: cover;
+    background-position: 80% 35%; 
+    padding-top: 10px;
     padding-bottom: 60%;
     } 
 
@@ -15,17 +16,11 @@ body {
     }
 
 
-/* ---------------------------------- HEADER / NAV BAR ------------------- */
- .header {}
-
- .navigation-bar {
-     border-bottom: 0;
-    }
-
+/* ---------------------------------- HEADER / BAND NAME ------------------- */
 
  ul {
      list-style-type: none;
-     font-size: 45px;
+     font-size: 35px;
      margin: 0;
      padding-top: 10px;
      border-bottom: 10px;
@@ -34,42 +29,51 @@ body {
  
  li {
      display: inline;
-          text-align: center;
+     text-align: center;
 
  }
 
  li a {
     text-decoration: none!important; 
     margin:0;
-    color:#014b56;
-    padding: 10px 30px;
+     color: #464a4e;
+     padding: 10px 30px;  
     text-align: center;
     }
 
-  li a:hover {
- /*    color: #2e92a0; */
-     background-color: rgba(213, 230, 230, 0.5);
+  li a:hover { 
      color:#014b56;
-     width: 400px;
-
+     height: auto;
     } 
 
-
-
-/* ---------------------------------- BAND NAME+INFO SECTION ------------------- */
-
-
- .band-name {
-     padding-top: 5px;
-     
+ .hero-image-container {
+     height: 100%;
+     width: 100%; 
+     overflow: hidden; 
  }
-
-  .part h3 {
+  
+  .hero-image-container h3 {
+     font-family: "Lato", sans-serif;
+     font-weight: 200;
      text-align: center;
      font-size: 50px;
      padding: 0;
      margin-bottom: 15px;
+     letter-spacing: 3px;
+     word-spacing: 5px;
+     color:#014b56
  }
+
+
+/* ---------------------------------- QUOTES SECTION ------------------- */
+
+
+
+
+
+ 
+
+ /* --------- TOUR PAGE CONTENT ---------   */
 
  /* --- Code below copied from https://codepen.io/GeoffreyCrofte/pen/Hizkh ----  */
 
@@ -101,12 +105,7 @@ body {
 
 /* ---------------------------------- MIDDLE SECTION ------------------- */
 
- .hero-image-container {
-     height: 45%;
-     width: 100%;
-     overflow: hidden;
- }
- 
+
 
 
 
