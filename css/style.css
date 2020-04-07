@@ -18,32 +18,16 @@ body {
 
 /* ---------------------------------- HEADER / BAND NAME ------------------- */
 
- ul {
-     list-style-type: none;
-     font-size: 35px;
-     margin: 0;
-     padding-top: 10px;
-     border-bottom: 10px;
-
-     }
- 
  li {
      display: inline;
-     text-align: center;
-
  }
+
 
  li a {
     text-decoration: none!important; 
     margin:0;
      color: #464a4e;
      padding: 10px 30px;  
-    text-align: center;
-    }
-
-  .nav-item a:hover { 
-     color:#014b56;
-     height: auto;
     } 
 
  .hero-image-container {
@@ -59,15 +43,31 @@ body {
      font-size: 50px;
      padding: 0;
      margin-bottom: 15px;
-     letter-spacing: 3px;
-     word-spacing: 5px;
-     color:#014b56
+     letter-spacing: 2px;
+     word-spacing: 4px;
+     color:#dde0e5;
  }
 
 
 /* ---------------------------------- QUOTES SECTION ------------------- */
 
+#quotes {
+    width: 40%;
+    text-align: left;
+}
 
+.index-page-quotes p {
+    font-size: 15px;
+    font-family: "Gotu", sans-serif;
+}
+
+.index-page-quotes p i {
+    font-size: 8.5px;
+}
+
+footer {
+    padding-top: 0;
+}
 
 
 
@@ -103,17 +103,21 @@ body {
  
 
 
-/* ---------------------------------- FOOTER ------------------- */
+/* ---------------------------------- SOCIAL LINKS ------------------- */
 
 .footer, .social-media-links {
-    text-align: center;
-    font-size: 5px;
+    text-align: right;
+    list-style-type: none;
 }
+
 
 .footer ul li a {
     color:grey;
+    padding-right: 5px;
+    float: right;
+    font-size: 23px;
 } 
 
 .footer ul li a:hover {
-    color:#014b56;
-}
+    color:white;
+    }
