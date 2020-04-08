@@ -7,7 +7,7 @@
     background-size: cover;
     background-position: 80% 35%; 
     padding-top: 10px;
-    padding-bottom: 60%;
+    padding-bottom: 40%;
     } 
 
 body {
@@ -28,6 +28,7 @@ body {
     margin:0;
      color: #464a4e;
      padding: 10px 30px;  
+     float: left;
     } 
 
  .hero-image-container {
@@ -39,18 +40,17 @@ body {
   .hero-image-container h3 {
      font-family: "Lato", sans-serif;
      font-weight: 200;
-     text-align: center;
-     font-size: 50px;
-     padding: 0;
+     font-size: 40px;
+     padding-left: 0;
      margin-bottom: 15px;
      letter-spacing: 2px;
      word-spacing: 4px;
      color:#dde0e5;
  }
-
+ 
 
 /* ---------------------------------- QUOTES SECTION ------------------- */
-
+/*
 #quotes {
     width: 40%;
     text-align: left;
@@ -67,13 +67,42 @@ body {
 
 footer {
     padding-top: 0;
-}
+} */
 
 
 
  
 
- /* --------- TOUR PAGE CONTENT ---------   */
+ /* ---------  Tour section ---------   */
+
+ .tour h2 {
+     text-align: center;
+     padding-top: 7px;
+     font-size: 30px;
+ }
+
+ .container {
+     padding-bottom: 20px;
+ }
+
+ .row {
+     padding-top: 5px;
+     padding-bottom: 5px;
+
+ }
+
+ .ticket {
+    text-decoration: none!important;
+    color: black;
+ }
+
+ .ticket:hover {
+     color: #464a4e;
+ }
+
+
+
+
 
  /* --- Code below copied from https://codepen.io/GeoffreyCrofte/pen/Hizkh ----  */
 
@@ -114,7 +143,7 @@ footer {
 .footer ul li a {
     color:grey;
     padding-right: 5px;
-    float: right;
+    float: left;
     font-size: 23px;
 } 
 
