@@ -26,7 +26,7 @@ body {
  li a {
     text-decoration: none!important; 
     margin:0;
-     color: #464a4e;
+     color: #bfcbd6;
      padding: 10px 30px;  
      float: left;
     } 
@@ -47,6 +47,26 @@ body {
      word-spacing: 4px;
      color:#dde0e5;
  }
+
+ /* ---------------------------------- SOCIAL LINKS ------------------- */
+
+.footer, .social-media-links {
+    text-align: right;
+    list-style-type: none;
+}
+
+
+.footer ul li a {
+    color:grey;
+    padding-right: 5px;
+    float: left;
+    font-size: 23px;
+} 
+
+.footer ul li a:hover {
+    color:white;
+    }
+
  
 
 /* ---------------------------------- QUOTES SECTION ------------------- */
@@ -75,6 +95,12 @@ footer {
 
  /* ---------  Tour section ---------   */
 
+ .tour {
+     background: none; 
+     color: #343a40;
+     padding-top: 10px;
+ }
+
  .tour h2 {
      text-align: center;
      padding-top: 7px;
@@ -93,60 +119,17 @@ footer {
 
  .ticket {
     text-decoration: none!important;
-    color: black;
+    color: #343a40;
  }
 
  .ticket:hover {
-     color: #464a4e;
+     color: black;
  }
 
 
 
-
-
- /* --- Code below copied from https://codepen.io/GeoffreyCrofte/pen/Hizkh ----  */
-
-.diamond, .dia {
-  margin: 0 auto;
-  transform-origin: 50% 50%;
-  overflow: hidden;
-  width: 300px;
-  height: 300px;
-}
-
-.diamond {
-  transform: rotate(45deg) translateY(-25px) translateX(-25px);
-}
-.diamond .dia {
-  width: 380px;
-  height: 380px;
-  transform: rotate(-45deg);
-}
-.diamond img {
-  width: 100%;
-  height: auto;
-}
-
-/* --- end of copied code --- */
+/* --- NEWS SECTION --- */
 
  
 
 
-/* ---------------------------------- SOCIAL LINKS ------------------- */
-
-.footer, .social-media-links {
-    text-align: right;
-    list-style-type: none;
-}
-
-
-.footer ul li a {
-    color:grey;
-    padding-right: 5px;
-    float: left;
-    font-size: 23px;
-} 
-
-.footer ul li a:hover {
-    color:white;
-    }
