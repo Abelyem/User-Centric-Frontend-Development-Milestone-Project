@@ -24,7 +24,7 @@
 
 <div class="navigation-bar">
 
-<div class="hero-image">
+<div class="hero-image" id="section1">
 
 <!-- Navbar code below copied from Bootstrap - https://getbootstrap.com/docs/4.0/components/navbar/ 
  (Excluding band name + social links)-->
@@ -51,10 +51,10 @@
   <div class="collapse" id="navbarToggleExternalContent">
     <div class="bg-dark p-4">
     <ul>
-        <li><a href="#">Home</a></li>
+        <li><a href="#section1">Home</a></li>
+        <li><a href="#section2">Tour</a></li>
+        <li><a href="#section3">News</a></li>
         <li><a href="#">Gallery</a></li>
-        <li><a href="#">News</a></li>
-        <li><a href="#">Tour</a></li>
       </ul>
     </div>
   </div>
@@ -87,7 +87,7 @@
 
 <!---------------------- Tour Section  ---------------------->
 
-<div class="tour">
+<div class="tour" id="section2">
 <h2>Tour dates</h2>
 
 <hr>
@@ -213,11 +213,24 @@
 
 <!-- End of copied code-->
 
+
+
 <!-- Gallery section-->
 
-<section class="News">
-
+<section class="news" id="section3">
 <h2>News</h2>
+<div class="news-div">
+<form class="email-subscription">
+<p>Subscribe below to receive the latest on band news, tours, and updates!</p>
+<label for="email"></label>
+<input type="email" placeholder="Email Address">
+<!-- class for button copied in from bootstrap-->
+<button class="btn btn-dark">Subscribe</button> 
+
+
+</form>
+</div>
+
 
 </section>
 

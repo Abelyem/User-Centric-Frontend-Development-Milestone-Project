@@ -1,19 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:100,200,300,400,500|Gotu:100,200,300,400,500');
 
-.hero-image {
-    background: url("../images/microphone-on-mic-stand.jpg"); 
-    background-repeat: no-repeat; 
-    background-attachment: fixed;
-    background-size: cover;
-    background-position: 80% 35%; 
-    padding-top: 10px;
-    padding-bottom: 40%;
-    } 
+
 
 body {
     background-size: cover;
     font-family: "Lato", sans-serif;
     }
+
+html {
+    scroll-behavior: smooth;
+}
 
 
 /* ---------------------------------- HEADER / BAND NAME ------------------- */
@@ -66,6 +62,19 @@ body {
 .footer ul li a:hover {
     color:white;
     }
+
+
+/* ---------------------------------- Hero-image / Section1 ------------------- */
+
+.hero-image {
+    background: url("../images/microphone-on-mic-stand.jpg"); 
+    background-repeat: no-repeat; 
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: 80% 35%; 
+    padding-top: 10px;
+    padding-bottom: 40%;
+    } 
 
  
 
@@ -129,7 +138,20 @@ footer {
 
 
 /* --- NEWS SECTION --- */
+.news{
+    background-color:#bfcbd6;
+    text-align: center;
+}
 
- 
+ .news h2 {
+     padding-top: 10px;
+     text-align: center;
+ }
 
+.form {
+    display: inline;
+  }
 
+  .email-subscription input {
+      background-color: transparent;
+  }
