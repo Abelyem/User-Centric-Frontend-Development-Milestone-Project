@@ -19,13 +19,12 @@ html {
  }
 
 
- li a {
+ .socials li a {
     text-decoration: none!important; 
     margin:0;
-     color: #bfcbd6;
-     padding: 10px 30px;  
-     float: left;
-    } 
+    color: #bfcbd6;
+    padding: 10px 30px;  
+    } */
 
  .hero-image-container {
      height: 100%;
@@ -33,30 +32,36 @@ html {
      overflow: hidden; 
  }
   
-  .hero-image-container h3 {
+  .hero-image-container h4 {
      font-family: "Lato", sans-serif;
      font-weight: 200;
      font-size: 40px;
      padding-left: 0;
-     margin-bottom: 15px;
+     margin-bottom: 10px;
      letter-spacing: 2px;
      word-spacing: 4px;
      color:#dde0e5;
  }
 
- /* ---------------------------------- SOCIAL LINKS ------------------- */
+ .bg-dark {
+     padding-bottom: 0px;
+ }
 
-.footer, .social-media-links {
-    text-align: right;
-    list-style-type: none;
-}
+  .navi-links li a {
+     padding-left: 10px;
+     padding-bottom: 0;
+     text-decoration: none!important;
+ }
+
+
+ /* ---------------------------------- SOCIAL LINKS ------------------- */
 
 
 .footer ul li a {
     color:grey;
     padding-right: 5px;
-    float: left;
     font-size: 23px;
+    padding-bottom: 0;
 } 
 
 .footer ul li a:hover {
@@ -76,7 +81,7 @@ html {
     padding-bottom: 40%;
     } 
 
- 
+
 
 /* ---------------------------------- QUOTES SECTION ------------------- */
 /*
@@ -128,7 +133,7 @@ footer {
 
  .ticket {
     text-decoration: none!important;
-    color: #343a40;
+    color: rgb(163, 0, 163);
  }
 
  .ticket:hover {

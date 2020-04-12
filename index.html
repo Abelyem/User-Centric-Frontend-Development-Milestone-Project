@@ -31,15 +31,27 @@
 
 <div class="pos-f-t footer">
   <nav class="navbar navbar-dark bg-dark">
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+    <button class="d-sm-none navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
  
-   <h3>The Revolution Funk</h3>
+    <div class="d-none d-md-block collapse">
+    <div class="bg-dark p-4">
+    <ul class="navi-links">
+        <li><a href="#section1">Home</a></li>
+        <li><a href="#section2">Tour</a></li>
+        <li><a href="#section3">News</a></li>
+        <li><a href="#">Gallery</a></li>
+      </ul>
+    </div>
+  </div>
+
+<h4>The Revolution</h4>
+
 
     <!-- <i> tags copied from fontawesome -->
 
-   <ul>
+   <ul class="socials">
     <li><a href="https://www.spotify.com/uk/" target="_blank"><i class="fab fa-spotify"></i></a></li>
     <li><a href="https://www.youtube.com" target="_blank"><i class="fab fa-youtube"></i></a></li>
     <li><a href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram"></i></a></li>
@@ -48,9 +60,9 @@
    </ul>
 
 </nav>
-  <div class="collapse" id="navbarToggleExternalContent">
+  <div class="navi-links collapse" id="navbarToggleExternalContent">
     <div class="bg-dark p-4">
-    <ul>
+    <ul class="navi-links">
         <li><a href="#section1">Home</a></li>
         <li><a href="#section2">Tour</a></li>
         <li><a href="#section3">News</a></li>
