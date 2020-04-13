@@ -44,21 +44,6 @@ html {
      color:#dde0e5;
  }
 
- .bg-dark {
-     padding-bottom: 0px;
- }
-
-  .navi-links li a {
-     padding-left: 10px;
-     padding-bottom: 0;
-     text-decoration: none!important;
- }
-
-  
-
-
-
-
  /* ---------------------------------- SOCIAL LINKS ------------------- */
 
 
@@ -83,10 +68,21 @@ html {
     background-repeat: no-repeat; 
     background-attachment: fixed;
     background-size: cover;
-    background-position: 80% 35%; 
-    padding-top: 10px;
-    padding-bottom: 40%;
+    background-position: 80% 65%; 
+    padding-top: 160px;
+    padding-bottom: 55%;
     } 
+
+ .bg-dark {
+     padding-bottom: 0px;
+ }
+
+  .navi-links li a {
+     padding-left: 10px;
+     padding-bottom: 0;
+     text-decoration: none!important;
+ }
+
 
 
 
@@ -134,7 +130,7 @@ tr {
 }
 
 td {
-    padding: 15px 100px;
+    padding: 15px 0;
     text-align: left;
     color: #343a40;
     border-bottom-width: 50%;
@@ -145,10 +141,10 @@ td {
 /* code to center table element from: https://www.granneman.com/webdev/coding/css/centertables */
 
 table {
-    width: 80%; 
-    margin-left:10%; 
-    margin-right:10%;
-    font-size: 20px;
+    width: 70%; 
+    margin-left: 15%; 
+    margin-right: 15%;
+    font-size: 15px;
 }
 
  .ticket {
@@ -187,3 +183,5 @@ table {
   .email-subscription input {
       background-color: transparent;
   }
+
+
