@@ -163,12 +163,6 @@ table {
  }
 
 
-/* --- GALLERY SECTION --- */
-
-
-
-
-
 
 
 
@@ -179,9 +173,6 @@ table {
      text-align: center;
  }
 
-
-/* -- Code on centering from: https://www.w3schools.com/howto/howto_css_image_center.asp -- */
-
 .band-img1 {
     display: block;
     margin-left: auto;
@@ -190,24 +181,41 @@ table {
 }
 
 .about-description {
-    width: 50%;
-    text-align: left;
+    margin: auto;
+    width: 60%;
+}
+
+/* --- GALLERY SECTION --- */
+
+.gallery-header h2 {
+    font-size: 30px;
+    text-align: center;
 }
 
 
-/* ------ About us -- news (sub for updates) section ---- */
+/* --- Code referenced from repl.it project worked previously --- */
+
+.gallery-picture {
+    clear: none;
+    line-height: 0px;
+    column-count: 3;
+    column-gap: 0px;
+}
+
+.gallery-picture img {
+    width: 100%;
+}
+/* --- end --- */
+
+
+
+/* ------ News section ---- */
 
 .news-div {
     text-align: center;
-    padding-top: 30px;
 }
 
-.form {
-    display: inline;
-  }
 
-  .email-subscription input {
-      background-color: transparent;
-  }
+
 
 
