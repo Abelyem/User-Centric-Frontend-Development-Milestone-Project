@@ -30,14 +30,15 @@
 <!-- Navbar code below copied from Bootstrap - https://getbootstrap.com/docs/4.0/components/navbar/ 
  (Excluding band name + social links)-->
 
-<div class="pos-f-t footer">
+
+<div class="pos-f-t header">
   <nav class="navbar fixed-top navbar-dark bg-dark">
     <button class="d-sm-none navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
- 
-    <div class="d-none d-md-block collapse">
-    <div class="bg-dark p-4">
+
+     <div class="navi-links collapse" id="navbarToggleExternalContent">
+     <div class="bg-dark p-4">
     <ul class="navi-links">
         <li><a href="#section1">Home</a></li>
         <li><a href="#section2">Tour</a></li>
@@ -46,8 +47,19 @@
       </ul>
     </div>
   </div>
-
 <h4>The Revolution</h4>
+
+    <div class="d-none d-md-block collapse">
+    <div class="bg-dark p-4">
+    <ul class="navi-links">
+        <li><a href="#section1">Home</a></li>
+        <li><a href="#section2">Tour</a></li>
+        <li><a href="#section3">About us</a></li>
+        <li><a href="#">Gallery</a></li>
+      </ul>
+    </div>
+  </div>
+
 
 
     <!-- <i> tags copied from fontawesome -->
@@ -63,16 +75,6 @@
     <!-- End of copied code -->
 
 </nav>
-  <div class="navi-links collapse" id="navbarToggleExternalContent">
-    <div class="bg-dark p-4">
-    <ul class="navi-links">
-        <li><a href="#section1">Home</a></li>
-        <li><a href="#section2">Tour</a></li>
-        <li><a href="#section3">News</a></li>
-        <li><a href="#">Gallery</a></li>
-      </ul>
-    </div>
-  </div>
 </div>
 
 
@@ -95,7 +97,8 @@
 
 <!---------------------- Tour Section  ---------------------->
 
-<div class="tour" id="section2">
+<section id="section2">
+<div class="tour">
 <h2>Tour dates</h2>
 
 <table>
@@ -149,6 +152,40 @@
 
 </table>
 </div>
+</section>
+
+
+<!---------------------- End of tour Section  ---------------------->
+
+
+<!---------------------- About us Section  ---------------------->
+
+<section class="about-us" id="section3">
+
+
+<!---------- News section----------> 
+
+<h2>About us</h2>
+<div class="news-div">
+<form class="email-subscription">
+<p>Subscribe below to receive the latest on band news, tours, and updates!</p>
+<label for="email"></label>
+<input type="email" placeholder="Email Address" required>
+<!-- class for button copied in from bootstrap-->
+<button class="btn btn-dark">Subscribe</button> 
+</form>
+</div>
+
+
+</section>
+
+
+
+
+
+
+<!---------- End of News section ------------>
+
 
 
 
@@ -163,29 +200,7 @@
 
 </div>
 </section>
-
-<!---------- NEWS section---------->
-
-<section class="news" id="section3">
-<h2>News</h2>
-<div class="news-div">
-<form class="email-subscription">
-<p>Subscribe below to receive the latest on band news, tours, and updates!</p>
-<label for="email"></label>
-<input type="email" placeholder="Email Address">
-<!-- class for button copied in from bootstrap-->
-<button class="btn btn-dark">Subscribe</button> 
-
-
-</form>
-</div>
-
-
-</section>
-
-
-
-
+<!---------- end gallery section ---->
 
 
 
