@@ -1,11 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:100,200,300,400,500|Gotu:100,200,300,400,500');
 
-
-
 body {
     background-size: cover;
     font-family: "Lato", sans-serif;
-    }
+}
 
 html {
     scroll-behavior: smooth;
@@ -13,7 +11,36 @@ html {
 }
 
 
-/* ---------------------------------- HEADER / BAND NAME ------------------- */
+/* ---------------------------------- HEADER - BAND NAME + NAVIGATION LINKS ------------------- */
+  
+  .hero-image-container h4 {
+     font-family: "Lato", sans-serif;
+     font-weight: 100;
+     font-size: 30px;
+     padding-left: 0;
+     padding-bottom: 0px;
+     padding-right: 15px;
+     margin-bottom: 0px;
+     letter-spacing: 2px;
+     word-spacing: 4px;
+     color:#dde0e5;
+ }
+
+ .navi-links li a {
+     padding: 0 5px 0 5px;
+     text-decoration: none!important;
+     color:grey;
+     font-size: 20px;
+     margin: 0;
+     word-spacing: 5px;
+}
+
+ul.navi-links {
+    padding-left: 0;
+}
+
+ /* ---------------------------------- HEADER - SOCIAL LINKS -------------------*/
+
 
  li {
      display: inline;
@@ -21,48 +48,27 @@ html {
 
 
  .socials li a {
-    text-decoration: none!important; 
     margin:0;
-    color: #bfcbd6;
-    padding: 10px 30px;  
-    } */
+    color:grey;;
+    padding: 0 10px;  
+    font-size: 19px;
+ }
+ 
+/* --- Code below also applies to navigation links (Home / Tour.. etc --- */
+
+  ul li a:hover {
+    color:white;
+    }
+
+
+
+/* ---------------------------------- Hero-image / Section1 ------------------- */
 
  .hero-image-container {
      height: 100%;
      width: 100%; 
      overflow: hidden; 
  }
-  
-  .hero-image-container h4 {
-     font-family: "Lato", sans-serif;
-     font-weight: 100;
-     font-size: 35px;
-     padding-left: 0;
-     padding-bottom: 15px;
-     margin-bottom: 0px;
-     letter-spacing: 2px;
-     word-spacing: 4px;
-     color:#dde0e5;
- }
-
- /* ---------------------------------- SOCIAL LINKS ------------------- */
-
-
-.header ul li a {
-    color:grey;
-    padding-right: 5px;
-    font-size: 23px;
-    padding-bottom: 0;
-} 
-
-.header ul li a:hover {
-    color:white;
-    }
-
-
-
-
-/* ---------------------------------- Hero-image / Section1 ------------------- */
 
 .hero-image {
     background: url("../images/microphone-on-mic-stand.jpg"); 
@@ -74,24 +80,10 @@ html {
     padding-bottom: 55%;
     } 
 
- .bg-dark {
-     padding-bottom: 0px;
- }
-
-  .navi-links li a {
-     padding-left: 8px;
-     padding: 0;
-     text-decoration: none!important;
- }
-
- .navbar .fixed-top .navbar-dark .bg-dark {
-     padding: 0px;
- }
+  
 
 
-
-
-/* ---------------------------------- QUOTES SECTION ------------------- */
+/* ---------------------------------- QUOTES SECTION (WITHIN SECTION 1) ------------------- */
 
 #quotes {
     width: 45%;
@@ -112,11 +104,7 @@ footer {
     padding-top: 0;
 }
 
-
-
- 
-
- /* ---------  Tour section --------- */
+ /* ---------  Tour section (SECTION 2) --------- */
  
  .tour {
      background: none; 
@@ -126,8 +114,9 @@ footer {
  }  
 
  .tour h2 {
+     font-family: "Lato", sans-serif;
      padding: 10px 0;
-     font-size: 30px;
+     font-size: 25px;
  }
 
 tr {
@@ -166,11 +155,13 @@ table {
 
 
 
-/* --- ABOUT US SECTION --- */
+/* --- ABOUT-US (SECTION 3)--- */
 
 .about-us h2 {
+     font-family: "Lato", sans-serif;
      padding: 30px 0 15px;
      text-align: center;
+     font-size: 25px;
  }
 
 .band-img1 {
@@ -185,10 +176,10 @@ table {
     width: 60%;
 }
 
-/* --- GALLERY SECTION --- */
+/* --- GALLERY (SECTION) --- */
 
 .gallery-header h2 {
-    font-size: 30px;
+    font-size: 25px;
     text-align: center;
 }
 
@@ -207,15 +198,43 @@ table {
 }
 /* --- end --- */
 
+.gal-image:hover {
+    transform: scale(1.3, 1.3);
+}
 
 
 /* ------ News section ---- */
 
 .news-div {
     text-align: center;
+    padding: 25px 0;
 }
 
 
 
+
+
+/* ------ Footer section ---- */
+
+
+#section5 {
+    background-color: #343a40;
+}
+
+.footer {
+    padding: 5px 0;
+}
+
+.socials h6 {
+    color: white;
+    padding: 2px 15px;
+    font-size: 15px;
+}
+
+.end-page-footer {
+    height: 62px;
+    display: flex;
+    justify-content: center;
+}
 
 
