@@ -39,6 +39,10 @@ ul.navi-links {
     padding-left: 0;
 }
 
+ div.bg-dark {
+    padding: 0;
+}
+
  /* ---------------------------------- HEADER - SOCIAL LINKS -------------------*/
 
 
@@ -75,7 +79,7 @@ ul.navi-links {
     background-repeat: no-repeat; 
     background-attachment: fixed;
     background-size: cover;
-    background-position: 75% 65%; 
+    background-position: 65% 65%; 
     padding-top: 160px;
     padding-bottom: 55%;
     } 
@@ -86,22 +90,34 @@ ul.navi-links {
 /* ---------------------------------- QUOTES SECTION (WITHIN SECTION 1) ------------------- */
 
 #quotes {
-    width: 45%;
+    width: 55%;
     text-align: left;
-    padding-top: 15%;
+    padding-top: 18%;
+    padding-left: 9px;
+}
+
+
+.index-page-quotes {
+    border-left: 5px solid #343a40;
+    
 }
 
 .index-page-quotes p {
     font-size: 20px;
     font-family: "Gotu", sans-serif;
+    padding-left: 7px;
 }
 
 .index-page-quotes p i {
-    font-size: 8.5px;
+    font-size: 20px;
+    color: rgba(14, 38, 62, 0.5);
+    padding-bottom: 10px;
+    
 }
 
 footer {
     padding-top: 0;
+    padding-left: 7px;
 }
 
  /* ---------  Tour section (SECTION 2) --------- */
@@ -158,10 +174,10 @@ table {
 /* --- ABOUT-US (SECTION 3)--- */
 
 .about-us h2 {
-     font-family: "Lato", sans-serif;
-     padding: 30px 0 15px;
-     text-align: center;
-     font-size: 25px;
+    font-family: "Lato", sans-serif;
+    padding: 30px 0 15px;
+    text-align: center;
+    font-size: 25px;
  }
 
 .band-img1 {
@@ -173,7 +189,13 @@ table {
 
 .about-description {
     margin: auto;
-    width: 60%;
+    width: 70%;
+    padding-top: 10px;
+}
+iframe {
+    text-align: center;
+    width: 70%;
+    padding-left: 25%;
 }
 
 /* ------ News section ---- */
@@ -237,5 +259,6 @@ table {
     display: flex;
     justify-content: center;
 }
+
 
 
