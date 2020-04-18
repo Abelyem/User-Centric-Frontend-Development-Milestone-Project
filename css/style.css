@@ -39,10 +39,6 @@ ul.navi-links {
     padding-left: 0;
 }
 
- div.bg-dark {
-    padding: 0;
-}
-
  /* ---------------------------------- HEADER - SOCIAL LINKS -------------------*/
 
 
@@ -107,11 +103,11 @@ ul.navi-links {
     font-family: "Gotu", sans-serif;
     padding-left: 7px;
 }
-
+/*
 .index-page-quotes p i {
     font-size: 20px;
-    color: rgba(14, 38, 62, 0.5);
-    padding-bottom: 10px;
+    color: rgba(14, 38, 62, 0.5); 
+    padding-bottom: 10px; */
     
 }
 
