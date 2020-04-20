@@ -13,31 +13,22 @@ html {
 
 /* ---------------------------------- HEADER - BAND NAME + NAVIGATION LINKS ------------------- */
   
-  .hero-image-container h4 {
+  .navbar-brand {
      font-family: "Lato", sans-serif;
      font-weight: 100;
      font-size: 30px;
-     padding-left: 0;
-     padding-bottom: 0px;
-     padding-right: 15px;
-     margin-bottom: 0px;
      letter-spacing: 2px;
-     word-spacing: 4px;
+     word-spacing: 2px;
      color:#dde0e5;
  }
 
- .navi-links li a {
+ .nav-item {
      padding: 0 5px 0 5px;
      text-decoration: none!important;
-     color:grey;
      font-size: 20px;
-     margin: 0;
      word-spacing: 5px;
 }
 
-ul.navi-links {
-    padding-left: 0;
-}
 
  /* ---------------------------------- HEADER - SOCIAL LINKS -------------------*/
 
@@ -50,11 +41,10 @@ ul.navi-links {
  .socials li a {
     margin:0;
     color:grey;;
-    padding: 0 10px;  
-    font-size: 19px;
+    padding: 0 8px;  
+    font-size: 20px;
  }
  
-/* --- Code below also applies to navigation links (Home / Tour.. etc --- */
 
   ul li a:hover {
     color:white;
@@ -103,11 +93,11 @@ ul.navi-links {
     font-family: "Gotu", sans-serif;
     padding-left: 7px;
 }
-/*
+
 .index-page-quotes p i {
     font-size: 20px;
     color: rgba(14, 38, 62, 0.5); 
-    padding-bottom: 10px; */
+    padding-bottom: 10px;
     
 }
 
@@ -255,6 +245,8 @@ iframe {
     display: flex;
     justify-content: center;
 }
+
+
 
 
 
