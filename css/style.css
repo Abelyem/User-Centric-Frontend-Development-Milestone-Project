@@ -178,6 +178,17 @@ table {
     width: 70%;
     padding-top: 10px;
 }
+
+.music {
+    color: purple;
+    text-decoration: none!important;
+}
+
+.music:hover {
+    font-weight: 600;
+    color: purple;
+}
+
 iframe {
     text-align: center;
     width: 70%;

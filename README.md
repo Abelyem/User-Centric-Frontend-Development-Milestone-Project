@@ -60,6 +60,32 @@ a band worth following.
    - Date, venue and city all clearly shown in table format . Easy to identify when and where the band will be 
      performing in the future. 
 
+- About-us section
+   - Image shown directly below header in black and white / faces of band members not clear - image used to create 
+     some mystery around the band members.
+
+   - Information on the band provided directly below the image mentioned above. Also mentions type of music the band 
+     makes, as well as links to the band’s first hit record, first album, and most recent album (to provide a general 
+     overview as to how the band entered and became well known within the music industry, in addition to how they 
+     developed within it (by sharing a link of their most recent album)).  
+
+   - The band’s song and albums referenced  are given the same colour as the ‘Ticket’ links in the ‘Tour’ section of 
+     the site, there is also a change of font-weight when hovered over. As this colour has been previously used to 
+     indicate that text is a clickable link, this should indicate the same once again - font-weight would also go on
+     to further point this out.
+
+   - Video link provided directly below the information on the band - if none of the links were clicked, any user who
+     has remained on the website will be able to listen to the band’s music whilst remaining on the site/continuing to
+     scroll.
+  
+   - News section - allows fans to subscribe with their email address in order to receive any news/updates on the band
+     (including but not permitted to future tour dates). The ‘required’ tag also added to the input tag for the email 
+     address section.
+
+- Gallery section - A few images of the band whilst in action (either performing or preparing a set). 
+
+- Footer - features band name, and social media links once again. 
+
 
  ### Features left to implement 
 - Subscribe to ‘news/updates’ section shown below ‘About-us’ section - may change background colour of that section 
@@ -67,3 +93,20 @@ a band worth following.
 
 
 ## Technologies Used
+
+- Languages used:
+   - HTML
+   - CSS
+
+- Balsamiq used to create the wireframe for the project: https://balsamiq.com/ 
+- Bootstrap used to create mobile friendly navigation links: https://getbootstrap.com/ 
+
+## Testing
+
+## Deployment
+
+## Credits
+
+### Content
+### Media
+### Acknowledgement 
