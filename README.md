@@ -7,19 +7,18 @@ The overall aim of the website is to assist the band in selling more music / tic
 
 ## UX
 
-The website is made for both fans of the band, and music lovers who are coming across the band for the first time 
-(or have heard of them, but are looking for more information).
+<!-- Don't do from first person -->
 
 The aim as mentioned above was to help the band sell more music / tickets. The website does this well in the way 
 it has been set up. 
 
 As a fan of this band, I want to know where they are touring, so that I can purchase tickets to see them live.  
 
-As someone who has only heard of this band recently, I want to know more information on who they are, so that I 
+As someone who has only heard of this band recently, I want to know more about their music, so that I 
 can decide if they are a band I want to follow.
 
-As someone who has never heard their music, I want to know what genre they fall under, so I can see if they are 
-a band worth following. 
+As someone who has never heard their music, I want to know what genre they fall under, so I can check to see if they are 
+a band I could get into.  
 
 
 ## Features 
@@ -77,14 +76,14 @@ a band worth following.
    - Video link provided directly below the information on the band - if none of the links were clicked, any user who
      has remained on the website will be able to listen to the band’s music whilst remaining on the site/continuing to
      scroll.
-  
-   - News section - allows fans to subscribe with their email address in order to receive any news/updates on the band
-     (including but not permitted to future tour dates). The ‘required’ tag also added to the input tag for the email 
-     address section.
 
 - Gallery section - A few images of the band whilst in action (either performing or preparing a set). 
 
-- Footer - features band name, and social media links once again. 
+- News section - allows fans to subscribe with their email address in order to receive any news/updates on the band
+    (including but not permitted to future tour dates). The ‘required’ tag also added to the input tag for the email 
+    address section to ensure email entered correctly.
+
+- Footer - signals end of page, and also features band name and copyrights 
 
 
  ### Features left to implement 
@@ -105,8 +104,22 @@ a band worth following.
 
 ## Deployment
 
+github > setting > git hub pages
+
+
 ## Credits
 
 ### Content
+ - 
+
 ### Media
+ - https://burst.shopify.com/ 
+ - https://unsplash.com 
+
 ### Acknowledgement 
+
+ I received inspiration from the following sites:
+ 
+ - https://francescamusic.com/
+ - http://www.decemberists.com/
+ - http://www.070shake.net/ 
