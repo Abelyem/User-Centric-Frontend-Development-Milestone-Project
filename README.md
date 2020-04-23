@@ -7,9 +7,7 @@ The overall aim of the website is to assist the band in selling more music / tic
 
 ## UX
 
-<!-- Don't do from first person -->
-
-The aim as mentioned above was to help the band sell more music / tickets. The website does this well in the way 
+The aim as mentioned above is to help the band sell more music / tickets. The website does this well in the way 
 it has been set up. 
 
 As a fan of this band, I want to know where they are touring, so that I can purchase tickets to see them live.  
@@ -136,22 +134,45 @@ Hover feature fully functioning with a white colour (#fff) being applied across 
   are cliakable links. As all other links, when clicked they are opened in a new tab as to not lead away from the 
   website.
 
-- Video - song placed below About-us section. 
+- Video - song placed below About-us section. Video works without any issues - can also continue to scroll the page
+  to the next section without any interruption in video.
 
-===========
+### section 5 (email subscription for more band updates section)
 
-Screensizes issue: on mobile / page did not fit (scrolling horizontally slightly) - had to set margin to 0 to resolve.
-Screensize: Video width changing to 90X (check this first) % so that it fills screen on smaller devices.
+- Email placeholder has text decoration which shows a blue colour when selected.
+- Email address is set as 'required' in that section, unable to submit without including '@' - when attempting to do this
+  as a test, error message pops up advising there is an '@' missing.
+- Tested hover feature on subscribe button - working as set, and colour of button changes to purple when hovered over.
+
+## Screensize
+
+- Hamburger menu applied on screensizes 767px and below - this allows navigation to not clutter the header on smaller
+  devices.
+
+- A problem encounted on smaller devices was a horizontal scroll which wasn't intentially applied.
+
+- Video under 'About-us' section was too small when viewing on smaller devices (less than 667px) and so a media query
+  was applied to increase width of video when viewig on smaller devices.
 
 ## Deployment
 
-github > setting > git hub pages
+The option to create a new repository was provided when logging in to Github - option can also be found on the top 
+right hand corner of the page ('+' symbol). After naming the file, and opening said file on gitpod, I was then able
+to create new files and folders to hold the different information required (e.g images folder, index.html file, css folder 
++ file etc).
+
+The file was deployed via Gitpages. On Github, I first went to settings then down to Github pages section and selected
+the master branch as the source to enable Github pages to run.
+
+In order to run the file locally, you can open the file via Gitpod, then in the terminal search the following command:
+'python3 -m http.server' - clicking enter following that command will open a new pop-up on the terminal which gives 
+the user the option of 'Make Public', 'Open Preview, and 'Open Browser' - you can click 'Open Browser' to open the 
+file locally.
 
 
 ## Credits
 
 ### Content
- - 
 
 ### Media
  - https://burst.shopify.com/ 

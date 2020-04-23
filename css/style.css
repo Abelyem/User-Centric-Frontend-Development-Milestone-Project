@@ -309,7 +309,7 @@ button.subscribe-btn:hover {
 }
 
 
-@media only screen and (max-width: 640px) {
+@media only screen and (max-width: 667px) {
   iframe {
         width: 100%;
         padding: 5px;
