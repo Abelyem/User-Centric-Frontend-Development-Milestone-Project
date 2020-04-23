@@ -47,7 +47,7 @@ html {
  
 
   ul li a:hover {
-    color:white;
+    color:#fff;
     }
 
 
@@ -227,7 +227,8 @@ iframe {
 .row {
     display: flex;
     flex-wrap: wrap;
-    padding: 0 5px;
+    padding: 0 2px;
+    margin: 0;
 }
 
 .column {
@@ -247,7 +248,7 @@ iframe {
 
 #section5 {
         text-align: center;
-
+        background-image: linear-gradient (#cbc5bf, #cbc5bf);
 }
 
 .news-div {
@@ -255,12 +256,13 @@ iframe {
 }
 
 input[type=email] {
-    border: 1px solid #a01ca0;
+    border: 1.5px solid #343a40;
 }
 
 ::placeholder {
-    color: grey;
-    text-decoration: none!important;
+    color: #343a40;
+    outline: none!important;
+    text-align: center;
 
     }
 
@@ -270,9 +272,9 @@ input.email-input {
 
 
 button.subscribe-btn {
-    background-color: transparent;
-    color: #a01ca0;
-    border: 1px solid #a01ca0;
+    background-color: #343a40;
+    color: #fff;
+    border: 1px solid #343a40;
     display: block;
     margin: 0 auto;
 }
@@ -313,10 +315,6 @@ button.subscribe-btn:hover {
         padding: 5px;
         margin: 0;
     }
-
- .gallery-picture {
-    column-count: 2;
-}
 }
 
 

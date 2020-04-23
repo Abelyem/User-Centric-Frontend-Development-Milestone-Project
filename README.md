@@ -102,6 +102,47 @@ a band I could get into.
 
 ## Testing
 
+### Navigation:
+
+- Home: When clicked returns user to first page where hero-image and quote is visible.
+- Tour: Scrolls down to section2 of the site, and to tour section which shows information on tour dates, and venue.
+- About us: Scrolls smoothly down to correct section3 of the site where band information is shown.
+- Gallery: Scrolls down to section4 of the page - shows gallery images.
+
+All navigation links tested from different starting points (e.g clicked 'Tour' from 'Gallery'/ clicked 
+on 'Home' from 'About-us' section etc) to ensure scroll feature works as intended from any and every starting point.
+
+### Social links
+
+- All social links work as intended and lead to their respective sites. Test was carried out on each clickable icon 
+  to ensure a new tab is opened each time, as opposed to leading the user off the band website ensuring there are no
+  issues with the target being set as "_blank".  
+
+Hover feature fully functioning with a white colour (#fff) being applied across each social icon when hovered over.
+
+### Tour section
+
+- All 'Ticket' links highlighted work as clickable links leading to the website from which tickets can be purchased.
+  Ticket links all open in a new tab, and do not steer user off from the band website.
+  Hover feature functioning to show a change in colour when any ticket clickable link is hovered over.
+
+- Image below tour section has a transform tag applied which increases size of image when hovered over. This feature
+  working as intended, and sized so that any increase in image size does not cover any text (e.g tour-dates inforamtion,
+  or the title for the next section (About-us)).
+
+### About-us section
+
+- Song name/album all have amended colours (purple) and font-weight increases when hovered over to make it clear all 
+  are cliakable links. As all other links, when clicked they are opened in a new tab as to not lead away from the 
+  website.
+
+- Video - song placed below About-us section. 
+
+===========
+
+Screensizes issue: on mobile / page did not fit (scrolling horizontally slightly) - had to set margin to 0 to resolve.
+Screensize: Video width changing to 90X (check this first) % so that it fills screen on smaller devices.
+
 ## Deployment
 
 github > setting > git hub pages
