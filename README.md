@@ -21,13 +21,13 @@ are a band I could get into.
 As a new fan of the band, I want to know how I can keep up to date with what the band is doing without having to visit
 the website every day.
 
-[Home page + Header - wireframe] (https://github.com/Abelyem/User-Centric-Frontend-Development-Milestone-Project/blob/master/wireframe/Section-1.png)
+[Home page + Header - wireframe](https://github.com/Abelyem/User-Centric-Frontend-Development-Milestone-Project/blob/master/wireframe/Section-1.png)
 
-[Tour page - wireframe] (https://github.com/Abelyem/User-Centric-Frontend-Development-Milestone-Project/blob/master/wireframe/Tour-Section2.png)
+[Tour page - wireframe](https://github.com/Abelyem/User-Centric-Frontend-Development-Milestone-Project/blob/master/wireframe/Tour-Section2.png)
 
-[About-us page - wireframe] (https://github.com/Abelyem/User-Centric-Frontend-Development-Milestone-Project/blob/master/wireframe/About-us-Section-3.png)
+[About-us page - wireframe](https://github.com/Abelyem/User-Centric-Frontend-Development-Milestone-Project/blob/master/wireframe/About-us-Section-3.png)
 
-[Gallery - wireframe] (https://github.com/Abelyem/User-Centric-Frontend-Development-Milestone-Project/blob/master/wireframe/Gallery-section-4.png)
+[Gallery - wireframe](https://github.com/Abelyem/User-Centric-Frontend-Development-Milestone-Project/blob/master/wireframe/Gallery-section-4.png)
 
 Subscribe for news and updates section - Not initially planned/No wireframe made for this however this was added to the
 website to ensure any potential user has the ability to keep up to date, and follow the band with minimal effort 
