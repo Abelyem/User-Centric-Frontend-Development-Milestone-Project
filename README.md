@@ -3,21 +3,35 @@
 What I have created is a website for a fictional band where the aim is to allow existing fans more access to the band, 
 and any potential new fans information on who the band are, and additional options to find out more about them. 
 
-The overall aim of the website is to assist the band in selling more music / tickets to their shows. 
+The overall aim of the website is to assist the band in selling more music / tickets to their shows, and gaining new 
+fans.
 
 ## UX
 
-The aim as mentioned above is to help the band sell more music / tickets. The website does this well in the way 
-it has been set up. 
+The aim is as mentioned above, and the website does this well in the way it has been set up. 
 
 As a fan of this band, I want to know where they are touring, so that I can purchase tickets to see them live.  
 
 As someone who has only heard of this band recently, I want to know more about their music, so that I 
 can decide if they are a band I want to follow.
 
-As someone who has never heard their music, I want to know what genre they fall under, so I can check to see if they are 
-a band I could get into.  
+As someone who has never heard their music, I want to know what genre they fall under, so I can check to see if they 
+are a band I could get into.  
 
+As a new fan of the band, I want to know how I can keep up to date with what the band is doing without having to visit
+the website every day.
+
+[Home page + Header - wireframe] (https://github.com/Abelyem/User-Centric-Frontend-Development-Milestone-Project/blob/master/wireframe/Section-1.png)
+
+[Tour page - wireframe] (https://github.com/Abelyem/User-Centric-Frontend-Development-Milestone-Project/blob/master/wireframe/Tour-Section2.png)
+
+[About-us page - wireframe] (https://github.com/Abelyem/User-Centric-Frontend-Development-Milestone-Project/blob/master/wireframe/About-us-Section-3.png)
+
+[Gallery - wireframe] (https://github.com/Abelyem/User-Centric-Frontend-Development-Milestone-Project/blob/master/wireframe/Gallery-section-4.png)
+
+Subscribe for news and updates section - Not initially planned/No wireframe made for this however this was added to the
+website to ensure any potential user has the ability to keep up to date, and follow the band with minimal effort 
+if intertested in doing so.
 
 ## Features 
 
@@ -151,8 +165,8 @@ Hover feature fully functioning with a white colour (#fff) being applied across 
 
 - A problem encounted on smaller devices was a horizontal scroll which wasn't intentially applied.
 
-- Video under 'About-us' section was too small when viewing on smaller devices (less than 667px) and so a media query
-  was applied to increase width of video when viewig on smaller devices.
+- Video under 'About-us' section was too small when being viewed on smaller devices (less than 667px) 
+  and so media query was applied to increase width of video when viewing on smaller devices.
 
 ## Deployment
 
@@ -173,6 +187,12 @@ file locally.
 ## Credits
 
 ### Content
+
+- All content on the site written by me. 
+
+- Information on the music genre for bands Red Hot Chilli Peppers and Linkin Park from:
+  - https://en.wikipedia.org/wiki/Red_Hot_Chili_Peppers
+  - https://en.wikipedia.org/wiki/Linkin_Park
 
 ### Media
  - https://burst.shopify.com/ 
