@@ -172,15 +172,15 @@ Hover feature fully functioning with a white colour (#fff) being applied across 
 
 The option to create a new repository was provided when logging in to Github - option can also be found on the top 
 right hand corner of the page ('+' symbol). After naming the file, and opening said file on gitpod, I was then able
-to create new files and folders to hold the different information required (e.g images folder, index.html file, css folder 
-+ file etc).
+to create new files and folders to hold the different information required (e.g images folder, index.html file, css 
+folder + file etc).
 
 The file was deployed via Gitpages. On Github, I first went to settings then down to Github pages section and selected
 the master branch as the source to enable Github pages to run.
 
 In order to run the file locally, you can open the file via Gitpod, then in the terminal search the following command:
 'python3 -m http.server' - clicking enter following that command will open a new pop-up on the terminal which gives 
-the user the option of 'Make Public', 'Open Preview, and 'Open Browser' - you can click 'Open Browser' to open the 
+the user the option of 'Make Public', 'Open Preview', or 'Open Browser' - you can click 'Open Browser' to run the 
 file locally.
 
 
