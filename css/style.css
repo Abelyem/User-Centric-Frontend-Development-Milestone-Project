@@ -164,7 +164,7 @@ table {
 
 #section3 {
     padding-top: 50px;
-    background-image: linear-gradient(#fff, #dde1e4, #fff)
+    background: linear-gradient(#fff, #dde1e4, #fff)
 }
 
 
@@ -247,8 +247,8 @@ iframe {
 /* ------ News section ---- */
 
 #section5 {
-        text-align: center;
-        background-image: linear-gradient (#cbc5bf, #cbc5bf);
+    text-align: center;
+    background: linear-gradient (#cbc5bf, #cbc5bf);
 }
 
 .news-div {
@@ -272,7 +272,6 @@ input.email-input {
 
 
 button.subscribe-btn {
-    background-color: #343a40;
     color: #fff;
     border: 1px solid #343a40;
     display: block;

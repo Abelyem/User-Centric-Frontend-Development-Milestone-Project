@@ -149,7 +149,9 @@ Hover feature fully functioning with a white colour (#fff) being applied across 
   website.
 
 - Video - song placed below About-us section. Video works without any issues - can also continue to scroll the page
-  to the next section without any interruption in video.
+  to the next section without any interruption in video. Video settings not on autoplay - allows user to action
+  this, and prevents confusion (e.g music does not start to play when user is on home page and not yet reached
+  'About-us' section of the site).
 
 ### section 5 (email subscription for more band updates section)
 
