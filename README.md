@@ -1,6 +1,6 @@
 # User Centric Frontend Development Milestone Project - The Revolution
 
-Live deployed site: https://abelyem.github.io/User-Centric-Frontend-Development-Milestone-Project/
+Live deployed site: https://abelyem.github.io/the-revolution/
 
 What I have created is a website for a fictional band where the aim is to allow existing fans more access to the band, 
 and any potential new fans information on who the band are, and additional options to find out more about them. 
